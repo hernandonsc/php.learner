@@ -1,0 +1,47 @@
+div {
+    height: 150px;
+    background-color: #4a4a4a;
+    font: 20px "Oswald";
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    line-height: 150px;
+}
+
+div p {
+    display: inline-block;
+}
+
+.img1 {
+    display: inline-block;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 28px;
+    
+}
+
+
+}
+
+input[type="checkbox"] {
+    opacity: 0;
+
+}
+
+.chkbox1:before {
+    content: '';
+    background: transparent url(img/box.png);
+
+}
+
+input[type="checkbox"]:checked ~ .chkbox1:before {
+    background-image: url(img/done.png);
+}
+
+.img2 {
+    display: inline-block;
+    float: right;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 32px;
+}
