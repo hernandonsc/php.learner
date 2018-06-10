@@ -1,47 +1,59 @@
-div {
-    height: 150px;
-    background-color: #4a4a4a;
-    font: 20px "Oswald";
-    font-weight: 500;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 20px Oswald;
     text-transform: uppercase;
-    color: white;
-    line-height: 150px;
+    padding: 3px;
 }
 
-div p {
-    display: inline-block;
-}
-
-.img1 {
-    display: inline-block;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    padding-left: 28px;
+ul {
+    list-style-position: inside;
+    list-style-type: none;
     
 }
 
-
+ul li {
+    height: 150px;
+    background-color: #4a4a4a;
+    position: relative;
+    line-height: 150px;
+    margin-bottom: 3px;
 }
 
-input[type="checkbox"] {
-    opacity: 0;
-
+ul a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
 }
 
-.chkbox1:before {
-    content: '';
-    background: transparent url(img/box.png);
-
-}
-
-input[type="checkbox"]:checked ~ .chkbox1:before {
-    background-image: url(img/done.png);
+.box {
+    display: inline-block;
+    margin: 55px 23px 55px 28px;
 }
 
 .img2 {
-    display: inline-block;
     float: right;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 32px;
+    display: inline-block;
+    margin: 60px 23px 60px 28px;
+}
+
+ul li:hover {
+    background-color: rgba(74, 73, 74, 0.8);
+}
+
+.done {
+    display: inline-block;
+    margin: 55px 23px 55px 28px;
+    background-image: url(img/done.png);
+}
+
+.green {
+    background-color: #27ae60;
+}
+
+.green:hover {
+    background-color: rgba(39, 174, 95, 0.8);
 }
