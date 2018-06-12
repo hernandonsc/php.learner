@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Layout Responsivo</title>
+        <meta charset="utf-8"/>
+        <link type="text/css" rel="stylesheet" href="normalize.css"/>
+        <link type="text/css" rel="stylesheet" href="estilo.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <!-- Criar layout responsivo: Usar valores relativos, evitar divs grandes -->
+        <meta name="viewport" content="width=device-width, inicial-scale=1">
+        <!-- Consulta de mídia: Usar min-width em vez de min-device-width // Use @media print no css -->
+        <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+        <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+        <!-- min-width,max // min-height,max // orientation=landscape, portrait
+            Use any-pointer e any-hover para interações flexíveis;
+            Projete o conteúdo para que ele caiba primeiro em uma tela pequena e expanda a tela até que um ponto de interrupção se torne necessário. 
+        <link rel="stylesheet" href="weather.css">
+        <link rel="stylesheet" media="(max-width:600px)" href="weather-2-small.css">
+        <link rel="stylesheet" media="(min-width:601px)" href="weather-2-large.css"> -->
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="img/logoplay.png">
+        </header>
+        <div class="container">
+            <article class="card">
+                <img src="img/card1.png">
+                <h2>Sou velho para ser programador?</h2>
+            </article>
+            <article class="card">
+                <img src="img/card2.png">
+                <h2>5 mentiras que impedem que você aprenda a programar</h2>
+            </article>
+            <div class="card">
+                <img src="img/card3.png">
+                <h2>Não cometa esse erro na faculdade de computação</h2>
+            </div>
+        </div>
+        
+    </body>
+</html>

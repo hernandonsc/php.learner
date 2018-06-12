@@ -1,0 +1,36 @@
+/* @media (query) para consultar as regras da CSS para altura e largura */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font: 20px "Roboto";
+}
+
+header {
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+
+header .logo {
+    display: block;
+    margin: auto;
+}
+
+div .card {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+div img {
+    width: auto;
+}
+
+div h2 {
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-weight: 500;
+}
