@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+    font-size: 20px;
+}
+
+header {
+    display: block;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+}
+
+header img {
+    position: absolute;
+    display: inline-block;
+    left: 10%;
+    top: 35%;
+}
+
+header ul {
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+    top: 80%;
+}
+
+ul li {
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+}
+
+header #inviteButton {
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#top {
+    display: flex;
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 400px;
+}
+
+#top div {
+    color: white;
+    margin: auto auto auto 15%;
+}
+
+#top h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#top h2 {
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.pinkButton {
+    line-height: 1.8em;
+    height: 1.8em;
+    background-color: #ff3d7f;
+    box-shadow: 0 6px 0 #a32751;
+    border-radius: 3px;
+}
+
+
+#about {
+    height: 340px;
+    min-height: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about img {
+    width: 300px;
+    height: 300px;
+    margin-right: 10%;
+}
+
+#about div {
+    display: block;
+    width: 400px;
+    float: right;
+    margin-left: 10%;
+}
+
+#about p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+#about h2 {
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#about h1 {
+    margin-bottom: 10px;
+}
+
+#comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 240px;
+    background-color: #ebe8fb;
+    border-top: 3px solid #511099;
+}
+    
+#comments quote {
+    font-style: italic;
+    margin-bottom: 1%;
+}
+
+#comments img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    margin-bottom: 2%;
+}
+
+#invite {
+    display: flex;
+    background-image: url(img/fundo-convite.png);
+    background-size: cover;
+    justify-content: center;
+    color: #4a4a4a;;
+    align-items: center;
+    height: 424px;
+}
+
+#invite div {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    
+}
+
+#invite img {
+    height: 43px;
+    margin-left: 10px;
+}
+
+
+footer {
+    height: 90px;
+    background-color: #2a0157;
+    color: white;
+    text-align: center;
+    border-top: 3px solid white;
+    line-height: 90px;
+}
