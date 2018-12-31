@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#andamento {
+    width: 100vw;
+    height: 150px;
+    background-color: #4a4a4a;
+    margin-bottom: 3px;
+}
+
+#andamento:hover {
+    background-color: rgba(74, 73, 74, 0.8);
+}
+
+.projeto {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-rows: 150px;
+    align-items: center;
+    justify-items: center;
+}
+
+.projeto h2 {
+    justify-self: start;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#feito {
+    width: 100vw;
+    height: 150px;
+    background-color: #27ae60;
+    margin-bottom: 3px;
+}
+
+#feito:hover {
+    background-color: rgba(39, 174, 95, 0.8);
+}
+
+.done {
+    content: url(img/done.png);
+}
+
+span {
+    font-size: 10px;
+    color: red;
+}

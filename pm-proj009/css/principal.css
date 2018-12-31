@@ -1,0 +1,32 @@
+@import url(header.css);
+
+html {
+    display: flex;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#checkout {
+    background-color: white;
+    width: 688px;
+    height: 558px;
+}
+
+#checkout #principal {
+    display: flex;
+}
+
+#checkout #principal #card {
+    background-color: blue;
+    width: 55%;
+}
+
+#checkout #principal #itens {
+    background-color: orange;
+    width: 45%;
+    
+}

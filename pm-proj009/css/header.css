@@ -1,0 +1,23 @@
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    background-image: url(../img/close.png);
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 17px;
+}
+
+.header a span {
+    visibility: hidden;
+}
+
