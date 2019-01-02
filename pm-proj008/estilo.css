@@ -120,7 +120,7 @@ nav li:hover {
     border: 1px solid #e7e7e7;
     display: flex;
     justify-content: center;
-    
+    min-width: 300px;
 }
 
 #content form {
