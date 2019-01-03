@@ -1,23 +1,42 @@
-.header {
-    height: 40px;
+header {
     display: flex;
+    align-items: center;
+    font-family: 'muliregular';
     justify-content: space-between;
-    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 40px;
+    border-bottom: solid 1px #eaeaea;
 }
 
-.header div {
+header div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    color: #a7a7a7;
 }
 
-.header a {
-    background-image: url(../img/close.png);
-    background-repeat: no-repeat;
-    height: 17px;
+header h1 {
+    font-size: 18px;
+    font-family: 'muliextrabold';
+    margin-right: 10px;
+    color: #5e5f5f;
+}
+
+header span {
+    font-size: 12px;
+    ;
+}
+
+header span strong {
+    font-family: 'muliextrabold';
+}
+
+header a {
+    background: url(../img/close.png) no-repeat;
     width: 17px;
+    height: 17px;
 }
 
-.header a span {
+header a span {
     visibility: hidden;
 }
-

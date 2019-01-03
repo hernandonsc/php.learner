@@ -1,0 +1,97 @@
+.resumo {
+    background-color: #ebebeb;
+    border-left: 1px solid #dddcde;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resumo #itens {
+    list-style: none;
+    
+}
+
+.resumo #itens li {
+    display: flex;
+    padding: 10px 0 10px 0;
+    align-items: center;
+    border-bottom: 1px #dadada solid;
+}
+/* PSEUDO-CLASSES
+    :last-child seleciona o último elemento irmão
+    :nth-child() seleciona irmãos com maior especificidade
+    */
+
+.resumo #itens li:last-child {
+    border: none;
+}
+
+.resumo #itens li img {
+    border: 1px solid #dadada;
+    padding: 1px;
+    background: white;
+}
+
+.resumo #itens li .info-item {
+    width: 90%;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resumo #itens li .info-item h3{
+    color: #777879;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.resumo #itens li .info-item small{
+    font-family: 'muliextralight_italic';
+    font-size: 10px;
+    color: #777879;
+    margin-bottom: 3px;
+}
+
+.resumo #itens li .info-item span{
+    font-size: 10px;
+    color: #777879;
+    margin-bottom: 3px;
+}
+
+.resumo #itens li span {
+    color: #777879;
+    font-size: 12px;
+}
+
+/* Tabela */
+
+.resumo table {
+    width: 100%;
+    border-spacing: 0;
+    border-top: 1px #dadada solid;
+    padding-top: 5px;
+}
+
+.resumo table th {
+    color: #777879;
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+    padding: 5px;
+}
+
+.resumo table td {
+    color: #777879;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    padding: 5px;
+}
+
+.resumo table tfoot * {
+    font-weight: bold;
+    border-top: 1px #dadada solid;
+    padding-top: 10px;
+}
+
