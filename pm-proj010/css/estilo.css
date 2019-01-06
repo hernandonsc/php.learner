@@ -1,0 +1,134 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: #f5f8f9;
+}
+
+/* Perfil - Coluna Esquerda */
+
+#perfil {
+    background-color: #3a3c40;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+#perfil img {
+    align-self: center;
+    width: 140px;
+    height: 146px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#perfil h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #f5a623;
+    text-transform: uppercase;
+}
+
+#perfil h3 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+#perfil .btn {
+    background-color: #f6a623;
+    box-shadow: 0 4px 0 0 rgba(246,166,35, .6);
+    margin: 10px 0 10px 0;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 400ms ease-in;
+}
+
+#perfil .btn:hover {
+    background-color: rgba(246,166,35, .6);
+}
+
+#perfil i {
+    color: white;
+    margin: 5px;
+    font-size: 1.2rem;
+    transition: color 400ms ease-in;
+}
+
+#perfil i:hover {
+    color: #f6a623;
+}
+
+#conhecimento {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#conhecimento h3 {
+    text-align: center;
+}
+
+#conhecimento small {
+    color: white;
+    font-size: 0.8rem;
+}
+
+#conhecimento .progress {
+    height: 7px;
+}
+
+#conhecimento .progress-bar {
+    background-color: #f1a668 !important;
+}
+
+/* Curriculum - Coluna Direita */
+
+#curriculum {
+    border: 1px solid rgba(155, 155, 155, 0.3);
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+#curriculum h3 {
+    color: #d0021b;
+    border-bottom: 1px solid #d0021b;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#curriculum #exp span {
+    display: block;
+    font-weight: 900;
+}
+
+#curriculum #exp small {
+    display: block;
+}
+
+#curriculum #formacao span {
+    display: block;
+    font-weight: 900;
+}
+
+#curriculum #formacao small {
+    display: block;
+}
+
+#curriculum #formacao .col-md {
+    text-align: center;
+}
+
+#curriculum #formacao #certific {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#curriculum #formacao figcaption h6 {
+    font-size: 0.9rem;
+}
