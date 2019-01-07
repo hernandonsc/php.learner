@@ -1,35 +1,27 @@
 body {
     background: #745cc1;
     font-family: "Roboto";
+    padding: 10%;
 }
 
 .boxLogin {
-    margin: auto;
-    width: 375px;
-    height: auto;
-    padding: 65px 64px 65px 64px;
     text-align: center;
 }
 
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 55px;
-    
 }
 
 .boxLogin input[type="email"],
 .boxLogin input[type="password"] {
     border: none;
+    display: block;
     border-bottom: 1px solid white;
     background: transparent;
     margin-bottom: 55px;
     color: white;
     font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    width: 100%;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -51,16 +43,14 @@ body {
 
 .boxLogin input[type="submit"] {
     border-radius: 40px;
-    width: 247px;
     height: 50px;
+    width: 100%;
     border: none;
     background: white;
     font-size: 18px;
     font-weight: 600;
     color: #39393a;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 6px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
